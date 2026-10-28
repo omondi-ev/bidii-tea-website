@@ -1,0 +1,6 @@
+/* Contact page refinements. All styles remain external. */
+.inner-page .quote-hero { background: #073e2c; color: white; padding: 64px max(5vw,20px); }
+.inner-page .quote-hero h1 { color: white; }
+.inner-page .quote-layout { scroll-margin-top: 24px; }
+.inner-page .quote-form { background: #fff; border: 1px solid #eee6d9; border-radius: 18px; box-shadow: 0 18px 40px rgba(7,62,44,.07); }
+.inner-page .quote-form input, .inner-page .quote-form select, .inner-page .quote-form textarea { max-width: 100%; }

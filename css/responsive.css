@@ -1,0 +1,43 @@
+/* Bidii Tea — responsive hero and navigation */
+@media (max-width: 1150px) {
+  .site-header { padding-inline: 3vw; }
+  .main-nav { gap: 10px; font-size: .75rem; }
+  .hero-top-text { gap: 31%; padding-inline: 4vw; }
+  .hero-statement h1, .hero-statement h2 { font-size: clamp(2.1rem, 3.7vw, 3.4rem); }
+}
+@media (max-width: 900px) {
+  .site-header { padding: 14px 5vw; }
+  .brand { width: 112px; }
+  .menu-toggle { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--gold); border-radius: 24px; color: white; background: transparent; cursor: pointer; }
+  .main-nav { display: none; position: absolute; top: 92px; right: 5vw; left: 5vw; background: var(--deep); padding: 20px; border: 1px solid #476858; border-radius: 12px; flex-direction: column; align-items: stretch; gap: 3px; }
+  .main-nav.is-open { display: flex; }
+  .main-nav a { padding: 11px 12px !important; }
+  .nav-cta { text-align: center; }
+  .hero-top { height: 515px; }
+  .hero-top-text { padding-top: 205px; gap: 40%; }
+  .hero-statement { width: 30%; }
+  .hero-statement h1, .hero-statement h2 { font-size: clamp(1.6rem, 3.5vw, 2.8rem); }
+  .hero-left h1 { white-space: normal; }
+  .hero-product-wrap { top: 132px; width: clamp(280px, 42vw, 390px); }
+  .hero-bottom { padding-top: 155px; }
+  .hero-features { grid-template-columns: repeat(2, 1fr); gap: 22px 0; }
+  .hero-features > div:nth-child(2) { border-right: 0; }
+}
+@media (max-width: 600px) {
+  .hero-top { height: 530px; }
+  .hero-top-text { padding: 148px 5vw 0; gap: 8px; align-items: flex-start; }
+  .hero-statement { width: 46%; }
+  .hero-statement h1, .hero-statement h2 { font-size: clamp(1.35rem, 5vw, 2rem); margin-top: 8px; }
+  .hero-right { text-align: right; }
+  .kicker { font-size: .55rem; letter-spacing: .12em; }
+  .gold-line { width: 45px; height: 2px; }
+  .hero-wave { height: 170px; }
+  .hero-product-wrap { top: 215px; width: min(88vw, 340px); }
+  .hero-bottom { padding: 180px 5vw 36px; }
+  .hero-copy h2 { font-size: 2rem; }
+  .hero-copy p { font-size: .94rem; }
+  .hero-features { margin-top: 35px; gap: 18px 0; }
+  .hero-features > div { padding: 0 8px; gap: 9px; font-size: .62rem; }
+  .feature-icon { width: 34px; height: 34px; font-size: 1rem; }
+  .site-footer { flex-direction: column; }
+}

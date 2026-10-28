@@ -1,0 +1,29 @@
+/* Bidii Tea shared footer */
+.bidii-footer{background:#073e2c;color:#f7f3e9;font-family:Arial,Helvetica,sans-serif;margin-top:0}
+.bidii-footer *{box-sizing:border-box}
+.bidii-footer a{color:#f7f3e9;text-decoration:none;transition:color .2s ease}
+.bidii-footer a:hover,.bidii-footer a:focus-visible{color:#e5bc64;text-decoration:underline}
+.bidii-footer a:focus-visible{outline:2px solid #c7a24b;outline-offset:3px}
+.bidii-footer .bf-container{width:min(1160px,calc(100% - 40px));margin:auto}
+.bidii-footer .bf-top{padding:55px 0 26px;border-bottom:1px solid #416253}
+.bidii-footer .bf-brand{font-family:Georgia,serif;font-size:29px;font-weight:700;color:#e4bc69;letter-spacing:.02em;margin:0 0 9px}
+.bidii-footer .bf-tagline{font-family:Georgia,serif;font-size:22px;margin:0 0 10px;color:#fff}
+.bidii-footer .bf-summary{max-width:700px;font-size:14px;line-height:1.8;color:#dce7df;margin:0}
+.bidii-footer .bf-grid{display:grid;grid-template-columns:1fr 1fr 1.4fr 1fr;gap:40px;padding:35px 0 44px}
+.bidii-footer h2{font-family:Arial,Helvetica,sans-serif;font-size:15px;color:#d7ad59;margin:0 0 17px;letter-spacing:.03em}
+.bidii-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:11px}
+.bidii-footer li,.bidii-footer address{font-size:14px;font-style:normal;line-height:1.65}
+.bidii-footer .bf-contact{display:grid;gap:11px}
+.bidii-footer .bf-bottom{border-top:1px solid #416253;padding:22px 0 26px}
+.bidii-footer .bf-bottom-inner{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:12px;color:#dce7df}
+.bidii-footer .bf-credit strong{color:#e4bc69;font-weight:600}
+@media(max-width:780px){.bidii-footer .bf-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}.bidii-footer .bf-grid>div:last-child{grid-column:1/-1}}
+@media(max-width:520px){.bidii-footer .bf-top{padding-top:40px}.bidii-footer .bf-grid{grid-template-columns:1fr;gap:28px}.bidii-footer .bf-grid>div:last-child{grid-column:auto}.bidii-footer .bf-bottom-inner{display:grid;text-align:center;justify-content:center}}
+
+.bidii-footer .bf-social-description{font-size:14px;line-height:1.7;margin:0 0 18px;color:#dce7df}
+.bidii-footer .bf-social-icons{display:flex;gap:12px;align-items:center}
+.bidii-footer .bf-social-icon{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid #8f9f91;border-radius:50%;color:#f7f3e9}
+.bidii-footer .bf-social-icon svg{width:21px;height:21px;fill:currentColor}
+.bidii-footer .bf-social-icon:hover{border-color:#e4bc69}
+.bidii-footer .bf-social-pending{opacity:.7;cursor:default}
+@media(max-width:780px){.bidii-footer .bf-grid>div:last-child{grid-column:auto}}
